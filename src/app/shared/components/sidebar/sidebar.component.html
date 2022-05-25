@@ -1,0 +1,26 @@
+<mat-nav-list>
+    <div class="profile">
+        <div class="nav">
+            <h2>{{ loginUser.email }}</h2>
+        </div>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h1 matSubheader>
+        <mat-icon>layers</mat-icon>Páginas</h1>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="users">
+        <mat-icon>people_alt_outline</mat-icon>Usuarios</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="lists">
+        <mat-icon>list_alt</mat-icon>Listas</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="items">
+        <mat-icon>task</mat-icon>Items</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="events">
+        <mat-icon>event_note</mat-icon>Eventos</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="info">
+        <mat-icon>info</mat-icon>Info</a>
+
+    <mat-divider></mat-divider>
+
+</mat-nav-list>
